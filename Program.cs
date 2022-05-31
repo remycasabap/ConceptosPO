@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ConceptosPO
 {
@@ -6,7 +6,22 @@ namespace ConceptosPO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            realizarTarea();
+        }
+
+
+
+        static void realizarTarea()
+        {
+            Punto origen = new Punto();
+            Console.WriteLine("\n");
+            Punto destino = new Punto(128, 80);
+            Console.WriteLine("\n");
+
         }
     }
+
+   
+
+
 }
